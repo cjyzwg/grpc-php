@@ -1,4 +1,4 @@
-module go-grpc/grpcdemo2
+module grpc-php
 
 go 1.12
 
