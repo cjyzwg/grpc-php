@@ -2,7 +2,7 @@ package main
 
 import (
     "fmt"
-    pb "go-grpc/grpcdemo2/rpc_proto"
+    pb "github.com/cjyzwg/grpc-php/rpc_proto"
     "golang.org/x/net/context"
     "google.golang.org/grpc"
     "net"
