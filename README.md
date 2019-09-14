@@ -3,6 +3,7 @@
 
 #### 可能需要执行
 > export GO111MODULE=on
+
 > go mod tidy
 
 1、protoc --proto_path=../../ --php_out=. helloServer.proto
@@ -32,4 +33,5 @@
 3、新建hello.php,并执行php hello.php
 结果：
 > helloGreenHat
+
 > this is from server HAHA!
