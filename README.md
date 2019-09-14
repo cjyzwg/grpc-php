@@ -28,8 +28,9 @@ go mod tidy
 			}
 		}
 	?>
-
-3、新建hello.php,并执行php hello.php
+3、cd client/phpclient && composer update  
+4、cd server && go run server.go  
+5、新建hello.php,并执行php hello.php
 结果：
 > helloGreenHat  
 this is from server HAHA!
